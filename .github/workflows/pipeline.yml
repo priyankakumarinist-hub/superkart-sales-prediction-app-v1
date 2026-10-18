@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: registered-data
-          path: superkart_project/data/machine-failure-prediction.csv
+          path: superkart_project/data/SuperKart.csv
 
   # ---------- JOB 2: Data Preparation ----------
   data-preparation:
