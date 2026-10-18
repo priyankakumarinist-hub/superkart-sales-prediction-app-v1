@@ -7,9 +7,8 @@ artifact.
 """
 import os
 from datetime import datetime
-
-import pandas as pd
 from sklearn.model_selection import train_test_split
+import pandas as pd
 
 RAW_PATH = "superkart_project/data/SuperKart.csv"
 TARGET_COLUMN = "Product_Store_Sales_Total"
